@@ -2,7 +2,7 @@
 
 import os
 
-from .compressed import bzipped, gzipped
+from demo_reader.compressed import bzipped, gzipped
 
 extension_map = {
     ".bz2": bzipped.opener,
